@@ -25,7 +25,7 @@ sequelize.sync({
 	console.log('Everything is synced');
 
 
-	Todo.findById(3).then(function(todo){
+	Todo.findById(2).then(function(todo){
 		if(todo) {
 			console.log(todo.toJSON());
 		} else {
